@@ -21,3 +21,5 @@ Imports: stringi (>= 1.4.6)
 Suggests: 
     testthat,
     covr
+URL: https://github.com/benmarwick/rmgarbage
+BugReports: https://github.com/benmarwick/rmgarbage/issues
