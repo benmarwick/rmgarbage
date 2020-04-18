@@ -1,0 +1,23 @@
+Package: rmgarbage
+Title: Automatic garbage extraction from OCR'd text
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ben",
+           family = "Marwick",
+           role = c("aut", "cre"),
+           email = "benmarwick@gmail.com",
+           comment = c(ORCID = "0000-0001-7879-4531"))
+Description: Removes garbage generated during optical character recognition of text. 
+    Derived from the methods described by Taghva et al.
+    in <http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.81.8901>
+    and code at  <https://github.com/foodoh/rmgarbage> and 
+    <https://github.com/Amoki/rmgarbage>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: stringi (>= 1.4.6)
+Suggests: 
+    testthat,
+    covr
