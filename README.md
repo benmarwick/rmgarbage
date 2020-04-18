@@ -11,7 +11,7 @@ The goal of rmgarbage is to remove strings obtained from OCR engines
 which are garbage. It contains functions that implement the methods
 described by:
 
-  - Taghva et al. 2001 “Automatic Removal of Garbage Strings in OCR
+  - Taghva et al. (2001) “Automatic Removal of Garbage Strings in OCR
     Text: An implementation”
     <http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.81.8901>  
   - Yang Cai (2008) “OCR Output Enhancement”
@@ -36,7 +36,6 @@ identifing bad OCR.
 
 ``` r
 library(rmgarbage)
-## basic example code
 ```
 
 Here is an example of output on a good ocr:
@@ -60,3 +59,8 @@ sapply(bad_ocr_ocr_split, rmgarbage)
 ```
 
 # Contributing
+
+If you would like to contribute to this project, please start by reading
+our [Guide to Contributing](CONTRIBUTING.md). Please note that this
+project is released with a [Contributor Code of Conduct](CONDUCT.md). By
+participating in this project you agree to abide by its terms.
